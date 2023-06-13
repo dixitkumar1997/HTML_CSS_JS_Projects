@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Types-of-building-materials.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#main h1{ 
+font-size: 35px;
+color: rgb(224, 228, 17);
+margin-bottom: 25px;
+}
+#bot{
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+input{
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    font-size: 19px;
+}
+.inp{
+    display: flex;
+    flex-direction: column;
+}
